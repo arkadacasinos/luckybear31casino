@@ -30,7 +30,9 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="ru" className={`bg-background ${manrope.variable}`}>
-      <head></head>
+      <head>
+        <meta name="yandex-verification" content="d8a1ed5b97bdcc0a" />
+      </head>
       <body className="font-sans">{children}</body>
     </html>
   )
